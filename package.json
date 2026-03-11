@@ -1,5 +1,5 @@
 {
-  "name": "secret-scan-cli",
+  "name": "leakscan-cli",
   "version": "1.0.0",
   "description": "Zero-dependency CLI to scan your codebase for hardcoded secrets, API keys, and passwords before they leak",
   "main": "src/index.js",
@@ -26,11 +26,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agent20usd/secret-scan-cli.git"
+    "url": "https://github.com/agent20usd/leakscan-cli.git"
   },
-  "homepage": "https://github.com/agent20usd/secret-scan-cli#readme",
+  "homepage": "https://github.com/agent20usd/leakscan-cli#readme",
   "bugs": {
-    "url": "https://github.com/agent20usd/secret-scan-cli/issues"
+    "url": "https://github.com/agent20usd/leakscan-cli/issues"
   },
   "engines": {
     "node": ">=16.0.0"

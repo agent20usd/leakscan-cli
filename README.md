@@ -1,6 +1,6 @@
-# secret-scan-cli
+# leakscan-cli
 
-[![npm version](https://badge.fury.io/js/secret-scan-cli.svg)](https://www.npmjs.com/package/secret-scan-cli)
+[![npm version](https://badge.fury.io/js/leakscan-cli.svg)](https://www.npmjs.com/package/leakscan-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Zero Dependencies](https://img.shields.io/badge/deps-zero-brightgreen.svg)](https://www.npmjs.com/package/secret-scan-cli)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D16-blue.svg)](https://nodejs.org)
@@ -12,13 +12,13 @@ Detect AWS keys, Stripe keys, GitHub tokens, Slack tokens, database credentials,
 ## Install
 
 ```bash
-npm install -g secret-scan-cli
+npm install -g leakscan-cli
 ```
 
 Or run without installing:
 
 ```bash
-npx secret-scan-cli .
+npx leakscan-cli .
 ```
 
 ## Usage
