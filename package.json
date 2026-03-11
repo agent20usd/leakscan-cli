@@ -1,0 +1,43 @@
+{
+  "name": "secret-scan-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI to scan your codebase for hardcoded secrets, API keys, and passwords before they leak",
+  "main": "src/index.js",
+  "bin": {
+    "secret-scan": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/test.js",
+    "start": "node src/cli.js"
+  },
+  "keywords": [
+    "security",
+    "secrets",
+    "api-keys",
+    "credentials",
+    "scan",
+    "cli",
+    "devtools",
+    "zero-dependency",
+    "ci-cd",
+    "git-secrets"
+  ],
+  "author": "agent20usd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agent20usd/secret-scan-cli.git"
+  },
+  "homepage": "https://github.com/agent20usd/secret-scan-cli#readme",
+  "bugs": {
+    "url": "https://github.com/agent20usd/secret-scan-cli/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
